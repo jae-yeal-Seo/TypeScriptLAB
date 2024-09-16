@@ -1,0 +1,6 @@
+// exportやimportがなくてもmoduleみたいにそのファイル中だけで変数が重複されないとエラーを発生しないようにする。
+{
+    "compilerOptions": {
+      "moduleDetection": "force"
+    }
+}
